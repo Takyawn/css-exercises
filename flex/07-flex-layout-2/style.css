@@ -8,21 +8,68 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight:bold;
+  display:flex;
+  justify-content: flex-start;
+  align-items:center;
+  padding-left:10px;
 }
+
+.main{
+  display:flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type:none ;
+  color:white;
+  text-decoration: none;
+  margin:0;
+  padding:0;
+}
+
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
+
+a{
+  text-decoration:none;
+  color:white;
+  }
 
 .sidebar {
-  width: 300px;
   background: royalblue;
+  display:flex;
+  padding:16px;
+  flex-shrink:0;
 }
 
+li{
+  margin-bottom:10px;
+}
+
+.cards{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  height:600px;
+  padding-left:75px;
+
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width:270px;
+  padding-bottom:35px;
+  font-size:15px;
+  padding-top:10px;
 }
